@@ -1,0 +1,65 @@
+$Off-white: hsl(36, 100%, 99%);
+$Grayish-blue: hsl(233, 8%, 79%);
+$Dark-grayish-blue: hsl(236, 13%, 42%);
+$Very-dark-blue: hsl(240, 100%, 5%);
+$Soft-red: hsl(5, 85%, 63%);
+$Soft-orange: hsl(35, 77%, 62%);
+
+//## Typography
+$font: 'Inter', sans-serif;
+$fontsize: 1.5rem;
+html {
+  font-size: 62.5%;
+}
+figure {
+  margin: 0;
+  padding: 0;
+}
+* {
+  min-width: 0;
+  font: inherit;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img,
+video,
+svg {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: $font;
+  font-size: $fontsize;
+  color: $Dark-grayish-blue;
+  padding: 2rem 1rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+p {
+  text-wrap: pretty;
+}
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.attribution {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}

@@ -1,0 +1,27 @@
+.aside {
+  padding: 2rem 1rem;
+  background-color: $Very-dark-blue;
+  color: $Off-white;
+  margin-bottom: 3rem;
+  &__heading--2 {
+    color: $Soft-orange;
+    font-size: 2rem;
+    font-weight: 800;
+    display: block;
+  }
+  &__article {
+    padding: 1.3rem 0;
+  }
+  &__article--3 {
+    margin: 1rem 0;
+  }
+  &__paragraph {
+    color: $Dark-grayish-blue;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+  }
+}
+.two {
+  border-bottom: 1px solid $Dark-grayish-blue;
+  border-top: 1px solid $Dark-grayish-blue;
+}
