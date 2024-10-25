@@ -4,6 +4,9 @@
   align-items: center;
   justify-content: space-between;
   margin-bottom: 2rem;
+  &__logo {
+    cursor: pointer;
+  }
 }
 .btn-open {
   border: none;

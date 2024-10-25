@@ -59,6 +59,8 @@ p {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 2rem; }
+  .header__logo {
+    cursor: pointer; }
 
 .btn-open {
   border: none;
@@ -143,8 +145,7 @@ p {
     display: none; } }
 
 .hero {
-  margin-bottom: 2rem;
-  background-color: red; }
+  margin-bottom: 2rem; }
   .hero__img {
     background: url(/assets/images/image-web-3-mobile.jpg);
     background-size: cover;
@@ -193,7 +194,8 @@ p {
 .card {
   display: flex;
   flex-direction: column;
-  gap: 2rem; }
+  gap: 2rem;
+  padding-bottom: 4rem; }
   .card__picture {
     max-width: 15rem;
     min-width: 15rem; }
